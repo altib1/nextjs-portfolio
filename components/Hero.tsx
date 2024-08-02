@@ -31,7 +31,7 @@ const Hero = () => {
             Im a symfony, sylius and react js developer based in France. I create modern, light and beautiful websites and web applications. 
             </p>
 
-            <a href='#about'>
+            <a href='/projects'>
                 <MagicButton 
                   title="Show my work"
                   icon={ <FaLocationArrow className='' /> }
