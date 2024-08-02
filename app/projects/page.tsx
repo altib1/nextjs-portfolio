@@ -1,22 +1,15 @@
-import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
-import Hero from "@/components/Hero";
-import Presentation from "@/components/Presentation";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 
-export default function Home() {
+export default function Projects() {
   return (
     <main className="relative bg-black-100 flex justify-center items-center 
     flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
-        <Hero />
-        <Presentation />
-        <RecentProjects displayNumber={4} title="A small selection of" spanTitle=" recent projects " buttonShowMore={true} />
-        <Experience />
+        <RecentProjects displayNumber={6} title="Here's a list of all the projects" spanTitle=" all the projects" buttonShowMore={false} />
         <Footer />
       </div>
     </main>

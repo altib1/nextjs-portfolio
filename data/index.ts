@@ -1,16 +1,9 @@
 export const navItems = [
+    { name: "Home", link: "/" },
     { name: "About", link: "about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Experience", link: "#experience" },
+    { name: "Projects", link: "projects" },
     { name: "Contact", link: "#contact" },
   ];
-
-export const navItemsAboutPage = [
-  { name: "Home", link: "" },
-  { name: "Projects", link: "#projects" },
-  { name: "Experience", link: "#experience" },
-  { name: "Contact", link: "#contact" },
-];
   
   export const gridItems = [
     {
@@ -124,115 +117,6 @@ export const navItemsAboutPage = [
       img: "/azergo-project.png",
       iconLists: ["/wordpress.svg", "/mysql.svg", "/js.svg", "/php.svg"],
       link: "https://www.azergo.fr",
-    },
-  ];
-  
-  export const TechIKnowWell = [
-    {
-      id: 1,
-      name: "Symfony",
-      nameImg: "/symfony_white_02.svg",
-    },
-    {
-      id: 2,
-      name: "Sylius",
-      nameImg: "/sylius.svg",
-    },
-    {
-      id: 3,
-      name: "PHP",
-      nameImg: "/php.svg",
-    },
-    {
-      id: 4,
-      name: "Java Script",
-      nameImg: "/js.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      nameImg: "/dockerName.svg",
-    },
-    {
-      id: 6,
-      name: "Sass",
-      nameImg: "/sass.svg",
-    },
-    {
-      id: 7,
-      name: "ReactJs",
-      nameImg: "/react.svg",
-    },
-    {
-      id: 8,
-      name: "MySQL",
-      nameImg: "/mysql.svg",
-    },
-    {
-      id: 9,
-      name: "HTML",
-      nameImg: "/html.svg",
-    },
-    {
-      id: 10,
-      name: "Css",
-      nameImg: "/css.svg",
-    },
-  ];
-
-  export const TechIKnow = [
-    {
-      id: 1,
-      name: "VueJs",
-      nameImg: "/vuejs.svg",
-    },
-    {
-      id: 2,
-      name: "MongoDB",
-      nameImg: "/mongodb.svg",
-    },
-    {
-      id: 3,
-      name: "TailwindCSS",
-      nameImg: "/tailwind-css.svg",
-    },
-    {
-      id: 4,
-      name: "NodeJs",
-      nameImg: "/node-js.svg",
-    },
-    {
-      id: 5,
-      name: "Maria db",
-      nameImg: "/mariadb.svg",
-    },
-  ];
-
-  export const TechIAmLearning = [
-    {
-      id: 1,
-      name: "cloudinary",
-      nameImg: "/cloudName.svg",
-    },
-    {
-      id: 2,
-      name: "appwrite",
-      nameImg: "/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      nameImg: "/dockerName.svg",
     },
   ];
   
