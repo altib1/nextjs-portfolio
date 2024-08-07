@@ -11,7 +11,6 @@ import animationData from "@/data/confetti.json";
 import { IoCopyOutline } from "react-icons/io5";
 import { handleClientScriptLoad } from "next/script";
 import MagicButton from "./MagicButton";
-import { Modal, ModalBody, ModalContent, ModalTrigger } from './AnimatedModal'
 
 export const BentoGrid = ({
   className,

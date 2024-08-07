@@ -3,8 +3,10 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations("Home");
   return (
     <div className='pb-20 pt-36'>
         <div>
@@ -24,16 +26,16 @@ const Hero = () => {
 
             <TextGenerateEffect 
             className='text-center text-[40px] md:text-5xl lg:text-6xl'
-            words='Hi, I&apos;m Alti'
+            words={t("hero-title")}
             />
 
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-            Im a symfony, sylius and react js developer based in France. I create modern, light and beautiful websites and web applications. 
+              {t("hero-subtitle")}
             </p>
 
             <a href='/projects'>
                 <MagicButton 
-                  title="Show my work"
+                  title={t("hero-button")}
                   icon={ <FaLocationArrow className='' /> }
                   position='right'
                 />
