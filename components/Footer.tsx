@@ -3,7 +3,23 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
 
-const Footer = () => {
+interface FooterProps {
+  titlePt1: string;
+  titlePt2: string;
+  titlePt3: string;
+  subtitle: string;
+  button: string;
+  copyright: string;
+}
+
+const Footer = ({
+  titlePt1,
+  titlePt2,
+  titlePt3,
+  subtitle,
+  button,
+  copyright
+}: FooterProps) => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
@@ -17,16 +33,14 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-sky-300">your</span> digital
-          presence to the next level?
+          {titlePt1} <span className="text-sky-300">{titlePt2}</span> {titlePt3}
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          {subtitle}
         </p>
         <a href="mailto:contact@jsmastery.pro">
           <MagicButton
-            title="Let's get in touch"
+            title={button}
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -34,7 +48,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Alti Balla
+          {copyright}
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

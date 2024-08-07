@@ -1,12 +1,14 @@
 import { workExperience } from '@/data'
 import React from 'react'
 import { Button } from './ui/MovingBorders'
+import { useTranslations } from "next-intl";
 
 const Experience = () => {
+    const t = useTranslations("Home");
   return (
     <div className='py-20' id='experience'>
-        <h1 className='heading'>My 
-            <span className='text-sky-300'> Work Experience</span>
+        <h1 className='heading'>{t("work-experience-title-pt1")}
+            <span className='text-sky-300'> {t('work-experience-title-pt2')}</span>
         </h1>
         <div className='w-full mt-12 grid lg:grid_cols-4 grid-cols-1 gap-10'>
             {workExperience.map((card) => (

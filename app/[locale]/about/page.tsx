@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
@@ -7,8 +6,11 @@ import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
+import { useTranslations } from "next-intl";
 
 export default function About() {
+  const f = useTranslations("Footer");
+  const t = useTranslations("About");
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
@@ -18,11 +20,11 @@ export default function About() {
             {/* Profile Section */}
             <div className="mb-10">
               <h2 className="bg-black text-white-300 rounded-full text-base w-fit px-4 py-1 mb-4">
-                Introduction
+                {t('menu-introduction')}
               </h2>
               <TextGenerateEffect 
             className='text-left text-[40px] md:text-5xl lg:text-6xl my-5'
-            words='Hi, It&apos;s me again'
+            words={t("title")}
             />
               <div className=" prose prose-sm dark:prose-invert text-base lg:text-xl sm:text-sm my-4">
                 <Image
@@ -32,13 +34,13 @@ export default function About() {
                   width="500"
                   className="rounded-lg mb-10 object-cover"
                 />
-                I'm a <strong className="text-sky-300">Full Stack Developer with over 3 years of professional experience</strong>, specializing in creating robust and scalable web applications using React, Symfony, and PHP. Based in Angers, France, I’m passionate about web development and continuous improvement.
+                {t('description-pt1')} <strong className="text-sky-300">{t('description-pt2')}</strong>{t('description-pt3')}
               </div>
             </div>
 
             <div className="mb-10">
               <h2 className="bg-black text-white-300 rounded-full text-base w-fit px-4 py-1 mb-4">
-                My Journey
+              {t('menu-my-journey')}
               </h2>
               <Image
                   src="/my-journey.jpg"
@@ -48,73 +50,73 @@ export default function About() {
                   className="rounded-lg mb-10 object-cover"
                 />
               <p className="text-xl mb-4">
-                My Professional Journey
+              {t('journey-pt1')}
               </p>
               <div className="text-sm prose prose-sm dark:prose-invert">
                 <p className="text-base lg:text-xl sm:text-sm my-4">
-                  I began my journey in web development with a BTS in <strong className="text-sky-300">Services Informatiques aux Organisations (Option Solutions Logicielles et Applications Métiers)</strong> from Lycée Carcouët, Nantes. Here, I gained foundational skills in HTML, CSS, PHP, and C#, and completed two internships: one at Lycée La Colinière, Nantes, where I developed a web application, and another at Ateliers Perrault, where I created a Windows application.
+                {t('journey-pt2-1')}<strong className="text-sky-300">{t('journey-pt2-2')}</strong> {t('journey-pt2-3')}
                 </p>
                 <p className="text-base lg:text-xl sm:text-sm my-4">
-                  I continued my studies with a <strong className="text-sky-300">Licence Professionnelle DIWA</strong> at Université de Le Mans (IUT de Laval), focusing on web application development and integration. During this period, I started my first work-study program as a web developer at Easycom, where I gained significant experience in Symfony, Sylius, and React.js.
+                {t('journey-pt3-1')}<strong className="text-sky-300">{t('journey-pt3-2')}</strong> {t('journey-pt3-3')}
                 </p>
                 <p className="text-base lg:text-xl sm:text-sm my-4" >
-                  To further enhance my skills, I pursued a <strong className="text-sky-300" >Master’s degree in Full Stack Web Development</strong> at My Digital School Angers, graduating with the title <strong>Manager de Projet Digital</strong>. This program deepened my expertise in both development and project management, preparing me for leadership roles in the tech industry.
+                {t('journey-pt4-1')}<strong className="text-sky-300" >{t('journey-pt4-2')}</strong> {t('journey-pt4-3')} <strong className="text-sky-300">{t('journey-pt4-4')}</strong> {t('journey-pt4-5')}
                 </p>
                 <p className="text-base lg:text-xl sm:text-sm my-4">
-                  I have over 3 years of professional experience and 5 years of personal experience in web development. I’m currently seeking new opportunities where I can contribute my expertise and passion for building scalable web applications.
+                {t('journey-pt5')}
                 </p>
               </div>
             </div>
 
             <div className="mb-10">
               <h2 className="bg-black text-white-300 rounded-full text-base w-fit px-4 py-1 mb-4">
-                Skills and Expertise
+              {t('menu-my-skills-and-expertise')}
               </h2>
               <ul className="list-disc pl-5 text-lg leading-7">
-                <li>Advanced experience in web application development with <strong className="text-sky-300">React.js, Symfony, Sylius, Vue.js</strong>.</li>
-                <li>Proficient in web services development: <strong className="text-sky-300">REST API, Node.js</strong>.</li>
-                <li>Knowledgeable in version control tools: <strong className="text-sky-300">GitHub, GitLab</strong>.</li>
-                <li>Skilled in writing SQL queries and familiar with database systems: <strong className="text-sky-300">MySQL/MariaDB, SQL Server, NoSQL, MongoDB</strong>.</li>
-                <li>Experienced with Docker and Linux command-line environments.</li>
-                <li>Competent in system modeling: <strong className="text-sky-300">Merise, UML</strong>.</li>
-                <li>Familiar with content management systems: <strong className="text-sky-300">WordPress</strong>.</li>
+                <li>{t('skills-li1-1')}<strong className="text-sky-300">{t('skills-li1-2')}</strong></li>
+                <li>{t('skills-li2-1')}<strong className="text-sky-300">{t('skills-li2-2')}</strong></li>
+                <li>{t('skills-li3-1')}<strong className="text-sky-300">{t('skills-li3-2')}</strong></li>
+                <li>{t('skills-li4-1')}<strong className="text-sky-300">{t('skills-li4-2')}</strong></li>
+                <li>{t('skills-li5-1')}</li>
+                <li>{t('skills-li6-1')}<strong className="text-sky-300">{t('skills-li6-2')}</strong></li>
+                <li>{t('skills-li7-1')}<strong className="text-sky-300">{t('skills-li7-2')}</strong></li>
               </ul>
             </div>
 
             <div className="mb-10">
               <h2 className="bg-black text-white-300 rounded-full text-base w-fit px-4 py-1 mb-4">
-                Languages
+              {t('menu-languages')}
               </h2>
               <p className="text-xl mb-4">
-                Language Proficiency
+              {t('languages-title')}
               </p>
               <div className="text-sm prose prose-sm dark:prose-invert">
                 <p className="text-base lg:text-xl sm:text-sm my-4">
-                  <strong className="text-sky-300">Albanian:</strong> Native language <br />
-                  <strong className="text-sky-300">English:</strong> C1 level or higher
+                  <strong className="text-sky-300">{t('languages-li1')}</strong> {t('languages-li1-1')} <br />
+                  <strong className="text-sky-300">{t('languages-li2')}</strong> {t('languages-li2-1')}
                 </p>
               </div>
             </div>
 
             <div className="mb-10">
               <h2 className="bg-black text-white-300 rounded-full text-base w-fit px-4 py-1 mb-4">
-                Personal Interests
+              {t('menu-personal-interest')}
               </h2>
               <p className="text-xl mb-4">
-                Outside of work
+              {t('personal-interests-title')}
               </p>
               <div className="text-sm prose prose-sm dark:prose-invert">
                 <p className="text-base lg:text-xl sm:text-sm my-4">
-                  Outside of work, I enjoy playing football, having participated in the sport for 3 years. I also have a passion for travel and have visited several countries including Germany, Belgium, Spain, the Netherlands, Croatia, Italy, and Albania.
+                {t('personal-interests-description')}
                 </p>
                 <p className="text-base lg:text-xl sm:text-sm my-4 text-sky-300 font-bold">
-                  If my skills and experience align with your needs, let’s connect!
+                {t('personal-interests-description-2')}
                 </p>
               </div>
             </div>
           </div>
         </TracingBeam>
-        <Footer />
+        <Footer titlePt1 = {f('title-pt-1')} titlePt2 = {f('title-pt-2')} titlePt3 = {f('title-pt-3')}  subtitle={f('subtitle')} copyright = {f('copyright')} button = {f('button')} />
       </div>
     </main>
   );
