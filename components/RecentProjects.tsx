@@ -21,6 +21,8 @@ const RecentProjects = ({
         button: string,
         question: string
     }) => {
+    const locale = useLocale();
+    const projects = locale === 'en' ? projectsEn : locale === 'fr' ? projectsFr : projectsAl;
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
@@ -28,9 +30,6 @@ const RecentProjects = ({
     }, []);
 
     if (!mounted) return null;
-
-    const locale = useLocale();
-    const projects = locale === 'en' ? projectsEn : locale === 'fr' ? projectsFr : projectsAl;
 
   return (
     <div className='py-20' id='projects'>
