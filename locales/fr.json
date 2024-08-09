@@ -62,9 +62,12 @@
         "personal-interests-description": "J'aime jouer au football, ayant pratiqué ce sport pendant 3 ans. J'ai également une passion pour les voyages et j'ai visité plusieurs pays, dont l'Allemagne, la Belgique, l'Espagne, les Pays-Bas, la Croatie, l'Italie et l'Albanie.",
         "personal-interests-description-2": "Si mes compétences et mon expérience correspondent à vos besoins, connectons-nous !"
     },    
-    "Projects": {
-        "title": "Contactez-moi",
-        "description": "Ceci est une description de la page de contact"
+    "Projects" : {
+        "title": "Voici une liste de",
+        "span-title": "tous les projets",
+        "check-live-website" : "Consultez le site en direct",
+        "button": "Voir plus",
+        "question": "Vous voulez voir plus de projets?"
     },
     "Footer": {
         "title-pt-1": "Prêt à elever ",

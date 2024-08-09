@@ -1,18 +1,25 @@
 'use client';
 
-import { projects } from '@/data'
+import { projectsEn } from '@/data/en.index'
+import { projectsFr } from '@/data/fr.index'
+import { projectsAl } from '@/data/al.index'
+import { useLocale } from 'next-intl'
+
 import React, { useEffect, useState } from 'react'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
 import MagicButton from './ui/MagicButton';
 
 const RecentProjects = ({
-        displayNumber, title, spanTitle, buttonShowMore
+        displayNumber, title, spanTitle, buttonShowMore, checkLiveSite, button, question
     }: {
         displayNumber: number,
         title: string,
         spanTitle: string,
-        buttonShowMore: boolean
+        buttonShowMore: boolean,
+        checkLiveSite: string,
+        button: string,
+        question: string
     }) => {
     const [mounted, setMounted] = useState(false);
 
@@ -21,6 +28,9 @@ const RecentProjects = ({
     }, []);
 
     if (!mounted) return null;
+
+    const locale = useLocale();
+    const projects = locale === 'en' ? projectsEn : locale === 'fr' ? projectsFr : projectsAl;
 
   return (
     <div className='py-20' id='projects'>
@@ -63,7 +73,7 @@ const RecentProjects = ({
                                 ))}
                             </div>
                             <div className='flex justify-center items-center'>
-                                <p className='flex lg:text-xl mf:text-xs text-sm text-sky-300'>Check Live site</p>
+                                <p className='flex lg:text-xl mf:text-xs text-sm text-sky-300'>{ checkLiveSite }</p>
                                 <FaLocationArrow className='ms-3'
                                 color='#CBACF9'
                                 />
@@ -76,10 +86,10 @@ const RecentProjects = ({
             ))}
             {buttonShowMore && (
                 <div className='w-full text-center items-center justify-center text-base sm:text-sm'>
-                    <h3 className='heading'>You want to see more projects?</h3>
+                    <h3 className='heading'>{ question }</h3>
                     <a href="/projects">
                     <MagicButton 
-                    title='Show More'
+                    title={button}
                     icon={<FaLocationArrow />}
                     />  
                     </a>

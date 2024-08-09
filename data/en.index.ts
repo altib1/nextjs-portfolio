@@ -1,11 +1,11 @@
-export const navItems = [
+export const navItemsEn = [
     { name: "Home", link: "/" },
     { name: "About", link: "about" },
     { name: "Projects", link: "projects" },
     { name: "Contact", link: "#contact" },
   ];
   
-  export const gridItems = [
+  export const gridItemsEn = [
     {
       id: 1,
       title: "Collaborating Closely with Clients to Bring Ideas to Life",
@@ -69,7 +69,7 @@ export const navItems = [
     },
   ];
   
-  export const projects = [
+  export const projectsEn = [
     {
       id: 1,
       title: "E-commerce B2B Platform - Sylius",
@@ -120,7 +120,7 @@ export const navItems = [
     },
   ];
   
-  export const workExperience = [
+  export const workExperienceEn = [
     {
       id: 1,
       title: "Backend Web Developer - Easycom/Wemea",
@@ -144,7 +144,7 @@ export const navItems = [
     },
   ];
   
-  export const socialMedia = [
+  export const socialMediaEn = [
     {
       id: 1,
       img: "/link.svg",

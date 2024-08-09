@@ -65,8 +65,11 @@
 
     },
     "Projects" : {
-        "title": "Contact me",
-        "description": "This is a description of the contact page"
+        "title": "Here's a list of",
+        "span-title": " all the projects",
+        "check-live-website" : "Check the live site",
+        "button": "Show more",
+        "question": "You want to see more projects?"
     },
     "Footer" : {
         "title-pt-1": "Ready to take",

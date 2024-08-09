@@ -63,8 +63,11 @@
         "personal-interests-description-2": "Nëse aftësitë dhe përvoja ime përputhen me nevojat tuaja, le të lidhemi!"
     },    
     "Projects" : {
-        "title": "Kontaktoni me",
-        "description": "Ky është një përshkrim i faqes së kontaktit"
+        "title": "Këtu është një listë e",
+        "span-title": "të gjitha projekteve",
+        "check-live-website": "Shiko faqen e drejtpërdrejtë",
+        "button": "Shfaq më shumë",
+        "question": "Dëshironi të shihni më shumë projekte?"
     },
     "Footer" : {
         "title-pt-1": "Gati për ta derguar prezencen",
