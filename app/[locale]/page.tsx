@@ -9,6 +9,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { navItemsEn } from "@/data/en.index";
 import { navItemsFr } from "@/data/fr.index";
 import { navItemsAl } from "@/data/al.index";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
     flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
+        <LanguageSwitcher />
         <Hero />
         <Presentation />
         <RecentProjects displayNumber={4} title={t('projects-home-pt1')} spanTitle={t('projects-home-pt2')} checkLiveSite = {t('recent-projects-check-live')} button = {t('recent-projects-button')} question = {t('recent-projects-question')} buttonShowMore={true} />
