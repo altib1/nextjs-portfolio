@@ -1,11 +1,11 @@
 {
     "Home" : {
         "hero-title": "Përshëndetje, unë jam Alti",
-        "hero-subtitle": "Unë jam një zhvillues symfony, sylius dhe react js bazuar në Francë. Unë krijoj faqe të internetit dhe aplikacione të internetit moderne, të lehta dhe të bukura.",
+        "hero-subtitle": "Unë jam një programues web symfony, sylius dhe react js bazuar në Francë. Unë krijoj faqe të internetit dhe aplikacione të internetit moderne, të lehta dhe të bukura.",
         "hero-button": "Shiko punën time",
         "presentation-title-pt1": "Le të prezantohemi",
         "presentation-title-pt2": " shpejt ",
-        "presentation-description": "Unë jam Alti Balla, një zhvillues full stack 26 vjeçar me pasion për ndërtimin e faqeve të internetit të bukura dhe funksionale. Kam një bazë të fortë në zhvillimin e uebit dhe gjithmonë jam në kërkim të teknologjive të reja. Kam punuar në projekte të ndryshme profesionalisht dhe personalisht. Projektet e mia janë kryesisht të ndërtuara me Symfony, Sylius, React js, Next js dhe teknologji të tjera moderne.",
+        "presentation-description": "Unë jam Alti Balla, një programues web full stack 26 vjeçar me pasion për ndërtimin e faqeve të internetit të bukura dhe funksionale. Kam një bazë të fortë në zhvillimin e uebit dhe gjithmonë jam në kërkim të teknologjive të reja. Kam punuar në projekte të ndryshme profesionalisht dhe personalisht. Projektet e mia janë kryesisht të ndërtuara me Symfony, Sylius, React js, Next js dhe teknologji të tjera moderne.",
         "presentation-button": "Dëshironi të dini më shumë për mua ?",
         "projects-home-pt1" : "Një zgjedhje e vogël e",
         "projects-home-pt2" : " projekteve të fundit ",
@@ -25,7 +25,7 @@
         "menu-personal-interest": "Interesat personale",
         "title": "Përshëndetje, jam përsëri unë",
         "description-pt1": "Unë jam një ",
-        "description-pt2": "Zhvillues Full Stack me mbi 3 vjet përvojë profesionale",
+        "description-pt2": "programues web Full Stack me mbi 3 vjet përvojë profesionale",
         "description-pt3": ", i specializuar në krijimin e aplikacioneve të fuqishme dhe të shkallëzueshme web duke përdorur React, Symfony dhe PHP. Bazuar në Angers, Francë, jam i apasionuar pas zhvillimit web dhe përmirësimit të vazhdueshëm.",
         "journey-pt1": "Udhëtimi Im Profesional",
         "journey-pt2-1": "E fillova udhëtimin tim në zhvillimin web me një BTS në",
