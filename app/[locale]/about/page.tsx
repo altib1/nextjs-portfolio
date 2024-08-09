@@ -9,6 +9,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { navItemsEn } from "@/data/en.index";
 import { navItemsFr } from "@/data/fr.index";
 import { navItemsAl } from "@/data/al.index";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function About() {
   const locale = useLocale();
@@ -20,6 +21,7 @@ export default function About() {
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
+        <LanguageSwitcher />
         <TracingBeam className="px-6 my-10">
           <div className="max-w-2xl mx-auto antialiased pt-4 relative">
             {/* Profile Section */}

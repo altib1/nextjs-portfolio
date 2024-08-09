@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { navItemsEn } from "@/data/en.index";
 import { navItemsFr } from "@/data/fr.index";
 import { navItemsAl } from "@/data/al.index";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function Projects() {
   const locale = useLocale();
@@ -17,6 +18,7 @@ export default function Projects() {
     flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
+        <LanguageSwitcher />
         <RecentProjects displayNumber={6} title={t('title')} spanTitle={t('span-title')} checkLiveSite = {t('check-live-website')} button = {t('button')} question = {t('question')} buttonShowMore={false} />
         <Footer titlePt1 = {f('title-pt-1')} titlePt2 = {f('title-pt-2')} titlePt3 = {f('title-pt-3')}  subtitle={f('subtitle')} copyright = {f('copyright')} button = {f('button')} />
       </div>
