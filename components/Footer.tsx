@@ -1,6 +1,8 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
-import { socialMedia } from "@/data";
+import { socialMediaEn } from "@/data/en.index";
+import { socialMediaFr } from "@/data/fr.index";
+import { socialMediaAl } from "@/data/al.index";
+import { useLocale } from "next-intl";
 import MagicButton from "./ui/MagicButton";
 
 interface FooterProps {
@@ -20,6 +22,9 @@ const Footer = ({
   button,
   copyright
 }: FooterProps) => {
+  const locale = useLocale();
+  const socialMedia = locale === "en" ? socialMediaEn : locale === "fr" ? socialMediaFr : socialMediaAl;
+  
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}

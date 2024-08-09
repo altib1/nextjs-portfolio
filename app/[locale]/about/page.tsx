@@ -4,11 +4,16 @@ import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "@/components/ui/TracingAnimation";
 import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import { navItems } from "@/data";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { navItemsEn } from "@/data/en.index";
+import { navItemsFr } from "@/data/fr.index";
+import { navItemsAl } from "@/data/al.index";
 
 export default function About() {
+  const locale = useLocale();
+  const navItems = locale === "en" ? navItemsEn : locale === "fr" ? navItemsFr : navItemsAl;
+  
   const f = useTranslations("Footer");
   const t = useTranslations("About");
   return (

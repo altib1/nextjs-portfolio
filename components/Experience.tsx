@@ -1,9 +1,13 @@
-import { workExperience } from '@/data'
+import { workExperienceEn } from '@/data/en.index'
+import { workExperienceFr } from '@/data/fr.index'
+import { workExperienceAl } from '@/data/al.index'
 import React from 'react'
 import { Button } from './ui/MovingBorders'
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale  } from "next-intl";
 
 const Experience = () => {
+    const locale = useLocale();
+    const workExperience = locale === "en" ? workExperienceEn : locale === "fr" ? workExperienceFr : workExperienceAl;
     const t = useTranslations("Home");
   return (
     <div className='py-20' id='experience'>

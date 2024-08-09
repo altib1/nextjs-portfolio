@@ -5,10 +5,16 @@ import Hero from "@/components/Hero";
 import Presentation from "@/components/Presentation";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import { navItems } from "@/data";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { navItemsEn } from "@/data/en.index";
+import { navItemsFr } from "@/data/fr.index";
+import { navItemsAl } from "@/data/al.index";
+
 
 export default function Home() {
+  const locale = useLocale();
+  const navItems = locale === "en" ? navItemsEn : locale === "fr" ? navItemsFr : navItemsAl;
+  
   const t = useTranslations("Home");
   const f = useTranslations("Footer");
   return (
@@ -18,7 +24,7 @@ export default function Home() {
         <FloatingNav navItems={navItems}/>
         <Hero />
         <Presentation />
-        <RecentProjects displayNumber={4} title={t('projects-home-pt1')} spanTitle={t('projects-home-pt2')} buttonShowMore={true} />
+        <RecentProjects displayNumber={4} title={t('projects-home-pt1')} spanTitle={t('projects-home-pt2')} checkLiveSite = {t('recent-projects-check-live')} button = {t('recent-projects-button')} question = {t('recent-projects-question')} buttonShowMore={true} />
         <Experience />
         <Footer titlePt1 = {f('title-pt-1')} titlePt2 = {f('title-pt-2')} titlePt3 = {f('title-pt-3')}  subtitle={f('subtitle')} copyright = {f('copyright')} button = {f('button')} />
       </div>

@@ -1,8 +1,15 @@
 import React from 'react'
 import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
-import { gridItems } from '@/data'
+import { gridItemsEn } from '@/data/en.index'
+import { gridItemsFr } from '@/data/fr.index'
+import { gridItemsAl } from '@/data/al.index'
+import { useLocale } from "next-intl";
+
 
 const Grid = () => {
+    const locale = useLocale();
+    const gridItems = locale === "en" ? gridItemsEn : locale === "fr" ? gridItemsFr : gridItemsAl;
+    
   return (
     <section id='about'>
         <BentoGrid>
