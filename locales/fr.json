@@ -1,11 +1,11 @@
 {
     "Home": {
-        "hero-title": "Salut, je suis Alti",
+        "hero-title": "Salut, je m'appelle Alti",
         "hero-subtitle": "Je suis un développeur symfony, sylius et react js basé en France. Je crée des sites web et des applications web modernes, légers et beaux.",
         "hero-button": "Voir mon travail",
         "presentation-title-pt1": "Permettez-moi de me présenter",
         "presentation-title-pt2": " rapidement ",
-        "presentation-description": "Je suis Alti Balla, un développeur full stack de 26 ans passionné par la création de sites web beaux et fonctionnels. J'ai une solide base en développement web et je suis toujours à la recherche de nouvelles technologies. J'ai travaillé sur différents projets professionnellement et personnellement. Mes projets sont principalement construits avec Symfony, Sylius, React js, Next js et d'autres technologies modernes.",
+        "presentation-description": "Je suis un développeur full stack de 26 ans passionné par la création de sites web beaux et fonctionnels. J'ai une solide base en développement web et je suis toujours à la recherche de nouvelles technologies. J'ai travaillé sur différents projets professionnellement et personnellement. Mes projets sont principalement construits avec Symfony, Sylius, React js, Next js et d'autres technologies modernes.",
         "presentation-button": "Vous voulez en savoir plus sur moi ?",
         "projects-home-pt1": "Une petite sélection de",
         "projects-home-pt2": " projets récents ",
