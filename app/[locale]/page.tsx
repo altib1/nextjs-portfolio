@@ -18,12 +18,13 @@ export default function Home() {
   
   const t = useTranslations("Home");
   const f = useTranslations("Footer");
+  const l = useTranslations("SwitchLanguage");
   return (
     <main className="relative bg-black-100 flex justify-center items-center 
     flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
-        <LanguageSwitcher />
+        <LanguageSwitcher cvButton = {l('cvButton')} />
         <Hero />
         <Presentation />
         <RecentProjects displayNumber={4} title={t('projects-home-pt1')} spanTitle={t('projects-home-pt2')} checkLiveSite = {t('recent-projects-check-live')} button = {t('recent-projects-button')} question = {t('recent-projects-question')} buttonShowMore={true} />

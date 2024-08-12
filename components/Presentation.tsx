@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 
 const Presentation = () => {
     const t = useTranslations("Home");
+    const l = useTranslations("SwitchLanguage");
   return (
     <div className='py-10 relative' id='projects'>
         <h1 className='heading text-center items-center justify-center'>
@@ -17,6 +18,14 @@ const Presentation = () => {
                 <p className='font-normal text-lg lg:text-xl md:text-base sm:text-sm xs:text-sm'>
                     {t('presentation-description')}
                 </p>
+                <a 
+                href="/cvalti.pdf" 
+                download 
+                className="flex items-center p-2 mt-5 rounded transition-colors hover:text-sky-300"
+            >
+                <span role="img" aria-label="Download CV" className="mr-2 text-xl">📄</span>
+                <p className=''>{ l('cvButton') }</p>
+            </a>
             </div>
             <div className='justify-center flex flex-wrap flex-col xl:flex-row items-center p-4 gap-x-24 gap-y-8 mt-10'>
                 <Image

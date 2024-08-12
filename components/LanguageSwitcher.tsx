@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 
-const LanguageSwitcher: React.FC = () => {
+const LanguageSwitcher: React.FC<{ cvButton?: string }> = ({ cvButton }) => {
     const router = useRouter();
 
     const changeLanguage = (language: string) => {
@@ -42,6 +42,14 @@ const LanguageSwitcher: React.FC = () => {
                 <span role="img" aria-label="Albanian" className="mr-2 text-xl">🇦🇱</span>
                 <p className='hidden sm:flex'>Albanian</p>
             </button>
+            <a 
+                href="/cvalti.pdf" 
+                download 
+                className="flex items-center p-2 rounded transition-colors hover:text-sky-300"
+            >
+                <span role="img" aria-label="Download CV" className="mr-2 text-xl">📄</span>
+                <p className='hidden sm:flex'>{ cvButton }</p>
+            </a>
         </div>
     );
 };
