@@ -17,11 +17,12 @@ export default function About() {
   
   const f = useTranslations("Footer");
   const t = useTranslations("About");
+  const l = useTranslations("SwitchLanguage");
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
-        <LanguageSwitcher />
+        <LanguageSwitcher cvButton = {l('cvButton')} />
         <TracingBeam className="px-6 my-10">
           <div className="max-w-2xl mx-auto antialiased pt-4 relative">
             {/* Profile Section */}

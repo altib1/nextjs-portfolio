@@ -13,12 +13,13 @@ export default function Projects() {
   
   const t = useTranslations("Projects");
   const f = useTranslations("Footer");
+  const l = useTranslations("SwitchLanguage");
   return (
     <main className="relative bg-black-100 flex justify-center items-center 
     flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
-        <LanguageSwitcher />
+        <LanguageSwitcher cvButton = {l('cvButton')} />
         <RecentProjects displayNumber={6} title={t('title')} spanTitle={t('span-title')} checkLiveSite = {t('check-live-website')} button = {t('button')} question = {t('question')} buttonShowMore={false} />
         <Footer titlePt1 = {f('title-pt-1')} titlePt2 = {f('title-pt-2')} titlePt3 = {f('title-pt-3')}  subtitle={f('subtitle')} copyright = {f('copyright')} button = {f('button')} />
       </div>
