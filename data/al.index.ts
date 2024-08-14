@@ -156,10 +156,108 @@ export const projectsAl = [
   
 ];
 
+export const workExperienceAl = [
+  {
+    id: 1,
+    title: "Programues Web Backend - Easycom/Wemea",
+    desc: "Programova dhe mbajta aplikacione web, faqe interneti dhe APIs duke përdorur teknologji moderne backend gjatë punës për Easycom dhe Wemea për 3 vjet.",
+    className: "md:col-span-2",
+    thumbnail: "/easycom-wemea.png",
+  },
+  {
+    id: 2,
+    title: "Programues Web - Lycée La Colinière",
+    desc: "Programova një aplikacion web për drejtorin e shkollës për të menaxhuar studentët atletë me aranzhime të veçanta të fletëve të orarit. Kam punuar aty si praktikant për 2 muaj.",
+    className: "md:col-span-2",
+    thumbnail: "/lyce.jpeg",
+  },
+  {
+    id: 3,
+    title: "Programues Windows - Ateliers Perrault",
+    desc: "Programova një aplikacion Windows për punonjësit e kompanisë, duke i lejuar ata të regjistrojnë orët e tyre të punës, qoftë të lidhur me internetin ose jo. Kam punuar aty si praktikant për 6 javë.",
+    className: "md:col-span-2",
+    thumbnail: "/ateliersperrault-logo.webp",
+  },
+];
+
+
 export const socialMediaAl = [
   {
     id: 1,
     img: "/link.svg",
     link: "https://www.linkedin.com/in/alti-balla-a644761a1/",
   },
+];
+
+export const privacyPolicyAl = [
+  {
+    id: 1,
+    title: "Politika e Privatësisë",
+    description: "Privatësia juaj është e rëndësishme për ne. Politika e Alti Balla është të respektojë privatësinë tuaj në lidhje me çdo informacion që mund të mbledhim nga ju në faqen tonë të internetit, https://altiballa.fr, dhe faqet e tjera që zotërojmë dhe operojmë.",
+    description1: "Ne kërkojmë informacion personal vetëm kur na nevojitet me të vërtetë për t'ju ofruar një shërbim. E mbledhim atë në mënyrë të drejtë dhe të ligjshme, me dijeninë dhe pëlqimin tuaj. Ne gjithashtu ju njoftojmë pse po e mbledhim atë dhe si do të përdoret.",
+    description2: "Ne mbajmë informacionin e mbledhur vetëm për aq kohë sa është e nevojshme për t'ju ofruar shërbimin e kërkuar. Çfarëdo të dhëne që ruajmë, do ta mbrojmë brenda mjeteve të pranueshme tregtare për të parandaluar humbjen dhe vjedhjen, si dhe qasjen, zbulimin, kopjimin, përdorimin ose modifikimin e paautorizuar.",
+    description3: "Ne nuk ndajmë asnjë informacion personalisht të identifikueshëm publikisht ose me palë të treta, përveç kur kërkohet nga ligji.",
+    description4: "Faqja jonë e internetit mund të lidhet me faqe të jashtme që nuk operohen nga ne. Ju lutemi të jeni të vetëdijshëm se ne nuk kemi asnjë kontroll mbi përmbajtjen dhe praktikat e këtyre faqeve dhe nuk mund të pranojmë asnjë përgjegjësi për politikat e tyre të privatësisë.",
+    description5: "Ne përdorim Sentry, një shërbim të palës së tretë, për të monitoruar dhe regjistruar gabimet që ndodhin në faqen e internetit. Kur ndodh një gabim, Sentry mund të mbledhë të dhëna teknike si adresa juaj IP (anonimizohet nëse është e mundur), informacionin e pajisjes dhe të shfletuesit, si dhe kohën dhe datën e gabimit. Këto të dhëna na ndihmojnë të identifikojmë dhe të rregullojmë problemet në faqen e internetit.",
+    description6: "Ju jeni të lirë të refuzoni kërkesën tonë për informacionin tuaj personal, duke kuptuar se ne mund të mos jemi në gjendje t'ju ofrojmë disa nga shërbimet që dëshironi.",
+    description7: "Përdorimi juaj i vazhdueshëm i faqes sonë të internetit do të konsiderohet si pranimi i praktikave tona rreth privatësisë dhe informacionit personal. Nëse keni ndonjë pyetje se si i trajtojmë të dhënat e përdoruesve dhe informacionet personale, mos hezitoni të na kontaktoni në altiballa@gmail.com.",
+    description8: "Kjo politikë është në fuqi që nga 1 shtatori 2021.",
+  },
+  
+]
+
+export const termsAndConditionsAl = [
+  {
+    id: 1,
+    title: "Kushtet dhe Kushtet e Përdorimit",
+    description: "Këto kushte dhe kushte të përdorimit (të quajtura më poshtë 'Kushtet dhe Kushtet') kanë për qëllim të rregullojnë ligjërisht kushtet e ofrimit të faqes dhe shërbimeve nga altiballa.fr dhe të përcaktojnë kushtet e aksesit dhe përdorimit të shërbimeve nga 'Përdoruesi'.",
+    description1: "Neni 1: Shënimet Ligjore",
+    description2: "Redaktimi dhe drejtimi i publikimit të faqes altiballa.fr është i menaxhuar nga Alti Balla, i cili ndodhet në 20 rue de la fontaine, Laval, Francë.",
+    description3: "Numri i telefonit: (+33) 06 05 99 15 77",
+    description4: "Adresa e emailit: altiballa@gmail.com",
+    description5: "Faqja është e hostuar nga Vercel, me selinë qendrore në 340 S Lemon Ave #4133, Walnut, CA 91789, SHBA.",
+    description6: "Neni 2: Aksesi në faqe",
+    description7: "Faqja altiballa.fr ofron Përdoruesit qasje falas në shërbimet e mëposhtme:",
+    description8: "- Prezentimi i projekteve të portofolit",
+    description9: "- Informacion mbi shërbimet e ofruara",
+    description10: "Faqja është e aksesueshme falas nga çdo vend për çdo Përdorues me qasje në Internet. Të gjitha shpenzimet që Përdoruesi ka për të aksesuar shërbimin (pajisjet kompjuterike, softuerët, lidhja me Internetin, etj.) janë në kurriz të Përdoruesit.",
+    description11: "Neni 3: Mbledhja e të Dhënave",
+    description12: "Faqja siguron për Përdoruesin mbledhjen dhe përpunimin e informacionit personal në përputhje me ligjet për privatësinë në përputhje me Ligjin nr. 78-17 të 6 janarit 1978, lidhur me kompjuterët, dosjet dhe liritë.",
+    description13: "Sipas Ligjit për Mbrojtjen e të Dhënave të 6 janarit 1978, Përdoruesi ka të drejtën të aksesojë, korigjojë, fshijë dhe kundërshtojë të dhënat e tij personale. Përdoruesi ushtron këtë të drejtë duke kontaktuar faqen në adresën: altiballa@gmail.com.",
+    description14: "Neni 4: Pronësia Intelektuale",
+    description15: "Markat, logot, shenjat si dhe të gjithë përmbajtjet e faqes (tekste, imazhe, tinguj, etj.) janë të mbrojtura nga Kodi i Pronësisë Intelektuale, sidomos nga të drejtat e autorit.",
+    description16: "Përdoruesi duhet të kërkojë lejen paraprake të faqes për çdo riprodhim, publikim ose kopjim të përmbajtjeve të ndryshme. Përdoruesi angazhohet për të përdorur përmbajtjet e faqes në një kontekst strikt privat dhe çdo përdorim për qëllime tregtare ose reklamuese është rreptësisht i ndaluar.",
+    description17: "Çdo përfaqësim i plotë ose i pjesëmarrshëm i kësaj faqeje me ndonjë mënyrë pa lejen e shprehur të operatorit të faqes do të përbënte një shkelje të ligjit e ndëshkueshme nga artikujt L 335-2 dhe të tjerë të Kodit të Pronësisë Intelektuale.",
+    description18: "Kujtohet sipas artikullit L122-5 të Kodit të Pronësisë Intelektuale që Përdoruesi që riprodhon, kopjon ose publikon përmbajtjen e mbrojtur duhet të citojë autorin dhe burimin e saj.",
+    description19: "Neni 5: Përgjegjësia",
+    description20: "Burimet e informacionit të shpërndarë në faqen altiballa.fr janë të besueshme, por faqja nuk garanton që ajo është e lirë nga defekte, gabime ose mungesa.",
+    description21: "Informacioni i dhënë është paraqitur për qëllime informacioni të përgjithshëm dhe nuk ka vlerë kontraktuale. Megjithë përditësimet e rregullta, faqja altiballa.fr nuk mund të mbajë përgjegjësi për ndryshimet në dispozitat administrative dhe ligjore që ndodhin pas publikimit. Po ashtu, faqja nuk mund të mbajë përgjegjësi për përdorimin dhe interpretimin e informacionit të përfshirë në këtë faqe.",
+    description22: "Faqja altiballa.fr nuk mund të mbajë përgjegjësi për ndonjë virus që mund të infektojë kompjuterin e Përdoruesit ose çdo pajisje kompjuterike, pas përdorimit, aksesit ose shkarkimit nga kjo faqe.",
+    description23: "Neni 6: Hipërlinket",
+    description24: "Faqja altiballa.fr mund të përmbajë hipërlinke që çojnë në faqe të tjera interneti. Megjithatë, faqja nuk mund të verifikojë përmbajtjen e faqeve të vizituara dhe për këtë arsye nuk mund të mbajë përgjegjësi për këtë fakt ose për përmbajtjen e atyre faqeve.",
+    description25: "Neni 7: Ndryshimet në Kushtet dhe Kushtet",
+    description26: "Faqja altiballa.fr rezervon të drejtën për të modifikuar klauzolat e këtyre kushteve dhe kushteve të përdorimit në çdo kohë dhe pa shpjegim.",
+    description27: "Neni 8: Kohëzgjatja e kontratës",
+    description28: "Kohëzgjatja e kësaj kontrate është e pacaktuar. Kontrata hyn në fuqi në lidhje me Përdoruesin nga fillimi i përdorimit të shërbimit.",
+    description29: "Neni 9: Ligji në Fuqi dhe Juridiksioni i K Competencës",
+    description30: "Ligji francez është i zbatueshëm për këtë kontratë. Në mungesë të një zgjidhjeje miqësore të një mosmarrëveshjeje që lind mes palëve, gjykatat franceze do të kenë kompetencë të vetme për të trajtuar çështjen.",
+  },
+];
+
+export const LegalMentionsAl = [
+  {
+    "id": 1,
+    "title": "Njoftimi Ligjor",
+    "editor": "Redaktori i Site-it",
+    "editorDescription": "Site-i altiballa.fr është botuar nga Alti Balla, që banon në 20 rue de la Fontaine, Laval, Francë.",
+    "host": "Hostuesi i Site-it",
+    "hostDescription": "Site-i është hostuar nga Vercel, me selinë e saj në 340 S Lemon Ave #4133, Walnut, CA 91789, SHBA.",
+    "access": "Akses në Site",
+    "accessDescription": "Site-i është i aksesueshëm nga çdo vend, 24/7, përveç rasteve të forcës madhore, ndërprerjeve të planifikuara ose të paplanifikuara për mirëmbajtje, ose ndërprerjeve nga hostuesi.",
+    "personalData": "Të Dhënat Personale",
+    "personalDataDescription": "Site-i respekton privatësinë e përdoruesve të tij dhe angazhohet që të gjitha informacionet që mbledh dhe që mund të identifikojnë përdoruesit të trajtohen si informacion të besueshëm.",
+    "prohibition": "Përdorimet e Ndaluara",
+    "prohibitionDescription": "Çdo përdorim, riprodhim, shpërndarje, tregti, ose modifikim i gjithë ose pjesës së Site-it, pa autorizimin e botuesit është e ndaluar."
+  }
+  
 ];

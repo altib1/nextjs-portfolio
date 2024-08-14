@@ -25,6 +25,12 @@ const Footer = ({
   const locale = useLocale();
   const socialMedia = locale === "en" ? socialMediaEn : locale === "fr" ? socialMediaFr : socialMediaAl;
   
+  const pageLinks = [
+    { name: 'Politique de Confidentialité', href: '/privacy-policy' },
+    { name: 'CGU', href: '/terms-and-conditions' },
+    { name: 'Mentions Légales', href: '/legal-mentions' },
+  ];
+
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
@@ -56,7 +62,7 @@ const Footer = ({
           {copyright}
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 mt-5">
           {socialMedia.map((info) => (
             <div
               key={info.id}
@@ -66,6 +72,13 @@ const Footer = ({
                 <img src={info.img} alt="icons" width={20} height={20} />
               </a>
             </div>
+          ))}
+        </div>
+        <div className="flex flex-col justify-center mt-5">
+          {pageLinks.map((link, index) => (
+            <a key={index} href={link.href} className="md:mx-2 mx-1 z-50 cursor-pointer hover:text-sky-300">
+              {link.name}
+            </a>
           ))}
         </div>
       </div>

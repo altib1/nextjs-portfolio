@@ -186,3 +186,77 @@ export const socialMediaFr = [
     link: "https://www.linkedin.com/in/alti-balla-a644761a1/",
   },
 ];
+
+export const privacyPolicyFr = [
+  {
+    id: 1,
+    title: "Politique de Confidentialité",
+    description: "Votre vie privée est importante pour nous. La politique d'Alti Balla est de respecter votre vie privée concernant toute information que nous pourrions collecter auprès de vous sur notre site web, https://altiballa.fr, et d'autres sites que nous possédons et exploitons.",
+    description1: "Nous ne demandons des informations personnelles que lorsque nous en avons réellement besoin pour vous fournir un service. Nous les collectons par des moyens justes et légaux, avec votre connaissance et votre consentement. Nous vous expliquons également pourquoi nous les collectons et comment elles seront utilisées.",
+    description2: "Nous ne conservons les informations collectées que le temps nécessaire pour vous fournir le service demandé. Les données que nous stockons sont protégées par des moyens commercialement acceptables pour prévenir la perte, le vol, ainsi que l'accès, la divulgation, la copie, l'utilisation ou la modification non autorisés.",
+    description3: "Nous ne partageons aucune information personnelle identifiable publiquement ou avec des tiers, sauf si la loi l'exige.",
+    description4: "Notre site web peut contenir des liens vers des sites externes qui ne sont pas exploités par nous. Veuillez noter que nous n'avons aucun contrôle sur le contenu et les pratiques de ces sites, et nous ne pouvons accepter aucune responsabilité quant à leurs politiques de confidentialité respectives.",
+    description5: "Nous utilisons Sentry, un service tiers, pour surveiller et enregistrer les erreurs qui se produisent sur le site web. Lorsqu'une erreur survient, Sentry peut collecter des données techniques telles que votre adresse IP (anonymisée si possible), des informations sur l'appareil et le navigateur, ainsi que l'heure et la date de l'erreur. Ces données nous aident à identifier et à résoudre les problèmes sur le site web.",
+    description6: "Vous êtes libre de refuser notre demande d'informations personnelles, en comprenant que nous pourrions être dans l'incapacité de vous fournir certains des services souhaités.",
+    description7: "Votre utilisation continue de notre site web sera considérée comme une acceptation de nos pratiques en matière de confidentialité et d'informations personnelles. Si vous avez des questions sur la manière dont nous gérons les données des utilisateurs et les informations personnelles, n'hésitez pas à nous contacter à l'adresse altiballa@gmail.com.",
+    description8: "Cette politique est en vigueur depuis le 1er septembre 2021.",
+  },
+  
+]
+
+
+export const termsAndConditionsFr = [
+  {
+    id: 1,
+    title: "Conditions Générales d'Utilisation",
+    description: "Les présentes conditions générales d'utilisation (dites « CGU ») ont pour objet l'encadrement juridique des modalités de mise à disposition du site et des services par altiballa.fr et de définir les conditions d’accès et d’utilisation des services par « l'Utilisateur ».",
+    description1: "Article 1 : Mentions légales",
+    description2: "L’édition et la direction de la publication du site altiballa.fr est assurée par Alti Balla, domicilié à 20 rue de la fontaine, Laval France.",
+    description3: "Numéro de téléphone : (+33) 06 05 99 15 77",
+    description4: "Adresse e-mail : altiballa@gmail.com",
+    description5: "Le Site est hébergé par Vercel, dont le siège social est situé au 340 S Lemon Ave #4133, Walnut, CA 91789, USA.",
+    description6: "ARTICLE 2 : Accès au site",
+    description7: "Le site altiballa.fr permet à l'Utilisateur un accès gratuit aux services suivants :",
+    description8: "- Présentation de projets de portfolio",
+    description9: "- Informations sur les services offerts",
+    description10: "Le site est accessible gratuitement en tout lieu à tout Utilisateur ayant un accès à Internet. Tous les frais supportés par l'Utilisateur pour accéder au service (matériel informatique, logiciels, connexion Internet, etc.) sont à sa charge.",
+    description11: "ARTICLE 3 : Collecte des données",
+    description12: "Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la vie privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.",
+    description13: "En vertu de la loi Informatique et Libertés, en date du 6 janvier 1978, l'Utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition de ses données personnelles. L'Utilisateur exerce ce droit en contactant le site à l'adresse : altiballa@gmail.com.",
+    description14: "ARTICLE 4 : Propriété intellectuelle",
+    description15: "Les marques, logos, signes ainsi que tous les contenus du site (textes, images, son...) font l'objet d'une protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d'auteur.",
+    description16: "L'Utilisateur doit solliciter l'autorisation préalable du site pour toute reproduction, publication, copie des différents contenus. Il s'engage à une utilisation des contenus du site dans un cadre strictement privé, toute utilisation à des fins commerciales et publicitaires est strictement interdite.",
+    description17: "Toute représentation totale ou partielle de ce site par quelque procédé que ce soit, sans l’autorisation expresse de l’exploitant du site Internet constituerait une contrefaçon sanctionnée par l’article L 335-2 et suivants du Code de la propriété intellectuelle.",
+    description18: "Il est rappelé conformément à l’article L122-5 du Code de propriété intellectuelle que l’Utilisateur qui reproduit, copie ou publie le contenu protégé doit citer l’auteur et sa source.",
+    description19: "ARTICLE 5 : Responsabilité",
+    description20: "Les sources des informations diffusées sur le site altiballa.fr sont réputées fiables mais le site ne garantit pas qu’il soit exempt de défauts, d’erreurs ou d’omissions.",
+    description21: "Les informations communiquées sont présentées à titre indicatif et général sans valeur contractuelle. Malgré des mises à jour régulières, le site altiballa.fr ne peut être tenu responsable de la modification des dispositions administratives et juridiques survenant après la publication. De même, le site ne peut être tenu responsable de l’utilisation et de l’interprétation de l’information contenue dans ce site.",
+    description22: "Le site altiballa.fr ne peut être tenu pour responsable d’éventuels virus qui pourraient infecter l’ordinateur ou tout matériel informatique de l’Internaute, suite à une utilisation, à l’accès, ou au téléchargement provenant de ce site.",
+    description23: "ARTICLE 6 : Liens hypertextes",
+    description24: "Le site altiballa.fr peut contenir des liens hypertextes menant vers d’autres sites internet. Cependant, le site ne peut vérifier le contenu des sites ainsi visités et ne pourra donc être tenu pour responsable du fait de ces sites ou de leurs contenus.",
+    description25: "ARTICLE 7 : Évolution des CGU",
+    description26: "Le site altiballa.fr se réserve le droit de modifier les clauses de ces conditions générales d'utilisation à tout moment et sans justification.",
+    description27: "ARTICLE 8 : Durée du contrat",
+    description28: "La durée du présent contrat est indéterminée. Le contrat produit ses effets à l'égard de l'Utilisateur à compter du début de l’utilisation du service.",
+    description29: "ARTICLE 9 : Droit applicable et juridiction compétente",
+    description30: "La législation française s'applique au présent contrat. En cas d'absence de résolution amiable d'un litige né entre les parties, les tribunaux français seront seuls compétents pour en connaître.",
+  },
+];
+
+export const LegalMentionsFr = [
+  {
+    "id": 1,
+    "title": "Mentions Légales",
+    "editor": "Éditeur du Site",
+    "editorDescription": "L’édition du Site altiballa.fr est assurée par Alti Balla, domicilié à 20 rue de la Fontaine, Laval, France.",
+    "host": "Hébergeur du Site",
+    "hostDescription": "Le Site est hébergé par Vercel, dont le siège social est situé au 340 S Lemon Ave #4133, Walnut, CA 91789, USA.",
+    "access": "Accès au Site",
+    "accessDescription": "Le Site est accessible depuis tout endroit, 7j/7, 24h/24, sauf en cas de force majeure, d'interruption programmée ou non programmée pour des besoins de maintenance ou en cas d'interruption par l'hébergeur.",
+    "personalData": "Données Personnelles",
+    "personalDataDescription": "Le Site respecte la vie privée de ses utilisateurs et s'engage à ce que toutes les informations qu'il recueille permettant de les identifier soient considérées comme des informations confidentielles.",
+    "prohibition": "Utilisation Interdite",
+    "prohibitionDescription": "Toute utilisation, reproduction, diffusion, commercialisation, modification de toute ou partie du Site, sans l'autorisation de l'Éditeur est interdite."
+  }
+  
+];
