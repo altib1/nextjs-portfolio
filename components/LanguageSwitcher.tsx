@@ -35,13 +35,13 @@ const LanguageSwitcher: React.FC<{ cvButton?: string }> = ({ cvButton }) => {
                 <span role="img" aria-label="Français" className="mr-2 text-xl">🇫🇷</span>
                 <p className='hidden sm:flex'>Français</p>
             </button>
-            <button 
+           {/* <button 
                 className="flex items-center p-2 rounded transition-colors hover:text-sky-300"
                 onClick={() => changeLanguage('al')}
             >
                 <span role="img" aria-label="Albanian" className="mr-2 text-xl">🇦🇱</span>
                 <p className='hidden sm:flex'>Albanian</p>
-            </button>
+            </button>*/}
             <a 
                 href="/cvalti.pdf" 
                 download 

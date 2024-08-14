@@ -20,7 +20,7 @@ export default function Projects() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
         <LanguageSwitcher cvButton = {l('cvButton')} />
-        <RecentProjects displayNumber={6} title={t('title')} spanTitle={t('span-title')} checkLiveSite = {t('check-live-website')} button = {t('button')} question = {t('question')} buttonShowMore={false} />
+        <RecentProjects displayNumber={7} title={t('title')} spanTitle={t('span-title')} checkLiveSite = {t('check-live-website')} button = {t('button')} question = {t('question')} buttonShowMore={false} />
         <Footer titlePt1 = {f('title-pt-1')} titlePt2 = {f('title-pt-2')} titlePt3 = {f('title-pt-3')}  subtitle={f('subtitle')} copyright = {f('copyright')} button = {f('button')} />
       </div>
     </main>
