@@ -187,3 +187,77 @@ export const navItemsEn = [
       link: "https://www.linkedin.com/in/alti-balla-a644761a1/",
     },
   ];
+
+  export const privacyPolicyEn = [
+    {
+      id: 1,
+      title: "Privacy Policy",
+      description: "Your privacy is important to us. It is Alti Balla's policy to respect your privacy regarding any information we may collect from you across our website, https://altiballa.fr, and other sites we own and operate.",
+      description1: "We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.",
+      description2: "We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use, or modification.",
+      description3: "We don’t share any personally identifying information publicly or with third-parties, except when required to by law.",
+      description4: "Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and cannot accept responsibility or liability for their respective privacy policies.",
+      description5: "We use Sentry, a third-party service, to monitor and log errors that occur on the website. When an error occurs, Sentry may collect technical data such as your IP address (anonymized if possible), device and browser information, and the time and date of the error. This data helps us identify and fix issues on the website.",
+      description6: "You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.",
+      description7: "Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us at altiballa@gmail.com.",
+      description8: "This policy is effective as of 1 September 2021.",
+    },
+  ];
+  
+
+  export const termsAndConditionsEn = [
+    {
+      id: 1,
+      title: "Terms and Conditions of Use",
+      description: "These terms and conditions of use (hereinafter referred to as the 'Terms and Conditions') are intended to legally frame the conditions under which the site and services are made available by altiballa.fr and to define the conditions of access and use of the services by the 'User'.",
+      description1: "Article 1: Legal Notice",
+      description2: "The editing and publication of the site altiballa.fr is managed by Alti Balla, residing at 20 rue de la fontaine, Laval, France.",
+      description3: "Phone number: (+33) 06 05 99 15 77",
+      description4: "Email address: altiballa@gmail.com",
+      description5: "The site is hosted by Vercel, whose headquarters are located at 340 S Lemon Ave #4133, Walnut, CA 91789, USA.",
+      description6: "ARTICLE 2: Access to the site",
+      description7: "The site altiballa.fr provides the User with free access to the following services:",
+      description8: "- Presentation of portfolio projects",
+      description9: "- Information on the services offered",
+      description10: "The site is accessible for free anywhere to any User with Internet access. All costs incurred by the User to access the service (computer equipment, software, Internet connection, etc.) are at the User's expense.",
+      description11: "ARTICLE 3: Data Collection",
+      description12: "The site ensures the User a collection and processing of personal information in compliance with privacy laws in accordance with Law No. 78-17 of January 6, 1978, relating to computers, files, and freedoms.",
+      description13: "In accordance with the Data Protection Act of January 6, 1978, the User has the right to access, rectify, delete, and oppose their personal data. The User exercises this right by contacting the site at the address: altiballa@gmail.com.",
+      description14: "ARTICLE 4: Intellectual Property",
+      description15: "Trademarks, logos, signs, as well as all the content of the site (texts, images, sound, etc.) are protected by the Intellectual Property Code, particularly by copyright.",
+      description16: "The User must obtain prior authorization from the site for any reproduction, publication, or copy of the various content. The User agrees to use the content of the site in a strictly private context, and any use for commercial or advertising purposes is strictly prohibited.",
+      description17: "Any total or partial representation of this site by any means whatsoever without the express permission of the website operator would constitute an infringement punishable by articles L 335-2 and following of the Intellectual Property Code.",
+      description18: "It is reminded under article L122-5 of the Intellectual Property Code that the User who reproduces, copies, or publishes protected content must cite the author and the source.",
+      description19: "ARTICLE 5: Liability",
+      description20: "The sources of the information disseminated on the site altiballa.fr are deemed reliable but the site does not guarantee that it is free of defects, errors, or omissions.",
+      description21: "The information provided is presented for general informational purposes and has no contractual value. Despite regular updates, the site altiballa.fr cannot be held responsible for changes in administrative and legal provisions occurring after publication. Similarly, the site cannot be held responsible for the use and interpretation of the information contained in this site.",
+      description22: "The site altiballa.fr cannot be held responsible for any viruses that may infect the User's computer or any computer equipment, following use, access, or downloading from this site.",
+      description23: "ARTICLE 6: Hyperlinks",
+      description24: "The site altiballa.fr may contain hyperlinks to other websites. However, the site cannot verify the content of the sites visited and will therefore not assume any responsibility for this fact or the content of those sites.",
+      description25: "ARTICLE 7: Changes to the Terms and Conditions",
+      description26: "The site altiballa.fr reserves the right to modify the clauses of these terms and conditions of use at any time and without justification.",
+      description27: "ARTICLE 8: Duration of the contract",
+      description28: "The duration of this contract is indefinite. The contract takes effect with respect to the User from the start of the use of the service.",
+      description29: "ARTICLE 9: Applicable Law and Jurisdiction",
+      description30: "French law applies to this contract. In the absence of an amicable resolution of a dispute arising between the parties, the French courts will have sole jurisdiction to hear the matter.",
+    },
+  ];
+
+  export const LegalMentionsEn = [
+    {
+      "id": 1,
+      "title": "Legal Notice",
+      "editor": "Site Editor",
+      "editorDescription": "The site altiballa.fr is published by Alti Balla, residing at 20 rue de la Fontaine, Laval, France.",
+      "host": "Site Host",
+      "hostDescription": "The site is hosted by Vercel, headquartered at 340 S Lemon Ave #4133, Walnut, CA 91789, USA.",
+      "access": "Site Access",
+      "accessDescription": "The site is accessible from anywhere, 24/7, except in cases of force majeure, scheduled or unscheduled interruptions for maintenance, or interruptions by the host.",
+      "personalData": "Personal Data",
+      "personalDataDescription": "The site respects the privacy of its users and is committed to treating all collected information that identifies users as confidential.",
+      "prohibition": "Prohibited Uses",
+      "prohibitionDescription": "Any use, reproduction, distribution, commercialization, or modification of all or part of the site, without the publisher's authorization, is prohibited."
+    }
+    
+  ];
+  
