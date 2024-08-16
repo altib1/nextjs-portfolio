@@ -24,7 +24,7 @@ export default function About() {
         <FloatingNav navItems={navItems} />
         <LanguageSwitcher cvButton = {l('cvButton')} />
         <TracingBeam className="px-6 my-10">
-          <div className="max-w-2xl mx-auto antialiased pt-4 relative">
+          <div className="max-w-2xl mx-auto antialiased pt-4 relative mt-20">
             {/* Profile Section */}
             <div className="mb-10">
               <h2 className="bg-black text-white-300 rounded-full text-base w-fit px-4 py-1 mb-4">
@@ -100,6 +100,7 @@ export default function About() {
               </p>
               <div className="text-sm prose prose-sm dark:prose-invert">
                 <p className="text-base lg:text-xl sm:text-sm my-4">
+                <strong className="text-sky-300">{t('languages-li0')}</strong> {t('languages-li0-1')} <br />
                   <strong className="text-sky-300">{t('languages-li1')}</strong> {t('languages-li1-1')} <br />
                   <strong className="text-sky-300">{t('languages-li2')}</strong> {t('languages-li2-1')}
                 </p>
