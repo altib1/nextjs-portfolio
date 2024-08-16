@@ -41,7 +41,7 @@ const RecentProjects = ({
     if (!mounted) return null;
 
   return (
-    <div className='py-20' id='projects'>
+    <div className='py-20 mt-20' id='projects'>
         <h1 className='heading'>
             {title} {' '} 
             <span className='text-sky-300'> {spanTitle} </span>
@@ -88,9 +88,9 @@ const RecentProjects = ({
                                     backdrop="blur"
                                     scrollBehavior="inside"
                                     hideCloseButton={true}
-                                    className={`bg-black/80 ${openModal === id ? 'md:max-w-4xl md:rounded-lg h-full' : ''}`}
+                                    className={`bg-black/80 ${openModal === id ? 'md:max-w-4xl md:rounded-lg h-[85%]' : ''}`}
                                     size={openModal === id ? 'lg' : 'full'}
-                                    style={{ padding: 0, margin: 0 }}
+                                    style={{ padding: 0, margin: 0, marginTop: 70  }}
                                 >
                                     <ModalContent className="rounded-lg shadow-lg relative">
                                         <button
@@ -127,7 +127,7 @@ const RecentProjects = ({
             </div>
             {buttonShowMore && (
                     <div className='w-full text-center items-center justify-center text-base sm:text-sm'>
-                        <h3 className='heading'>{question}</h3>
+                        <h3 className='heading my-5'>{question}</h3>
                         <a href="/projects">
                             <MagicButton
                                 title={button}

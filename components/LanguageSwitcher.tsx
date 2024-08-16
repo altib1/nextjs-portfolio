@@ -20,7 +20,7 @@ const LanguageSwitcher: React.FC<{ cvButton?: string }> = ({ cvButton }) => {
     };
 
     return (
-        <div className="absolute top-4 right-4 z-10 flex space-x-2">
+        <div className="absolute right-4 z-10 top-20 flex space-x-2">
             <button 
                 className="flex items-center p-2 rounded transition-colors hover:text-sky-300"
                 onClick={() => changeLanguage('en')}

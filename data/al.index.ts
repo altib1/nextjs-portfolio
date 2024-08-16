@@ -187,6 +187,11 @@ export const socialMediaAl = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/alti-balla-a644761a1/",
   },
+  {
+    id: 2,
+    img: "/github.png",
+    link: "https://github.com/altib1",
+  },
 ];
 
 export const privacyPolicyAl = [
